@@ -59,27 +59,3 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Los Angeles");
-
-let forecast = document.querySelector("#forecast");
-forecast.innerHTML = `
-    <div class="row">
-            <div class="column-2">
-                <div class="weather-forecast-date">               Thu</div> 
-                <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png" 
-                alt=""
-                width="42"
-                />
-                <div clsss="weather-forecast-temperature">
-                    <span class="weather-forecast-temperature-max">
-                    <strong>18°</strong></span> <span class="weather-forecast-temperature-min">
-                     12°</span>
-            </div></div>
-</div>
-         </div>
-          </div>
-          <div class="weather-app-temperature-container">
-            <div id="icon"></div>
-         <div class="weather-app-temperature" id="temperature"></div>
-          <div class="weather-app-unit">°C</div>
-        </div>
-`;
